@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+@layer utilities {
+  input {
+    &:-webkit-autofill {
+      transition: all 5000s ease-in-out 0s;
+    }
+    &:-webkit-autofill:hover {
+      transition: all 5000s ease-in-out 0s;
+    }
+    &:-webkit-autofill:focus {
+      transition: all 5000s ease-in-out 0s;
+    }
+    &:-webkit-autofill:active {
+      transition: all 5000s ease-in-out 0s;
+    }
+  }
+}
+ 
